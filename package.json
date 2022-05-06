@@ -1,0 +1,26 @@
+{
+    "name": "trading",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch:server": "nodemon \"./server.js\" --watch \"./dist\""
+    },
+    "author": "Néstor Pons",
+    "license": "MIT",
+    "dependencies": {
+        "debug": "^4.3.4",
+        "express": "^4.17.3",
+        "mathjs": "^10.4.2",
+        "moment": "^2.29.3",
+        "node-binance-api": "^0.13.1",
+        "nodejs-websocket": "^1.7.2",
+        "nodemon": "^2.0.15",
+        "path": "^0.12.7",
+        "react": "^18.0.0",
+        "socket.io": "^4.4.1",
+        "ws": "^8.5.0"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {}
+}

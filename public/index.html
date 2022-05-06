@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@^2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/1.2.0/chartjs-plugin-zoom.min.js" integrity="sha512-TT0wAMqqtjXVzpc48sI0G84rBP+oTkBZPgeRYIOVRGUdwJsyS3WPipsNh///ay2LJ+onCM23tipnz6EvEy2/UA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-crosshair" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class='head'>
+        <div id="trades"></div>
+        <h1 id="symbol">Chart Volume</h1>
+        <div id="temp"></div>
+        <div id="messages"></div>
+    </div>
+    <div class="container">
+        <canvas id="chart1" class='item'></canvas>
+    </div>
+    <script src="js/chart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

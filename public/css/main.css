@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.container {
+    height: 95%;
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    align-items: middle;
+}
+
+.head>* {
+    margin: 10px;
+}
